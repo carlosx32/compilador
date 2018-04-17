@@ -1,0 +1,48 @@
+[33mcommit b8d395635cd4cfa254f98fc2266f0694872cfe38[m
+Author: carlos <carlos0camacho@gmail.com>
+Date:   Mon Apr 16 23:51:45 2018 -0500
+
+    Borrar readme.md
+
+[33mcommit 2000e8593c2e1085be4c664bc17bace67f3dd042[m
+Author: carlos <carlos0camacho@gmail.com>
+Date:   Mon Apr 16 23:49:32 2018 -0500
+
+    cambios xd
+
+[33mcommit 96b43acb06e70a2f9dd5589226157172921c11ac[m
+Merge: 252f858 f609ba8
+Author: carlos <carlos0camacho@gmail.com>
+Date:   Mon Apr 16 23:48:45 2018 -0500
+
+    Merge branch 'master' of https://github.com/carlosx32/compilador
+
+[33mcommit 252f858cf93225cf8cdac7ee94f945f297a2f0d4[m
+Author: carlos <carlos0camacho@gmail.com>
+Date:   Mon Apr 16 23:43:58 2018 -0500
+
+    Token condicionales y ciclos
+
+[33mcommit f609ba89fad6ef61084e2908bb945a779ffe1006[m
+Author: Carlos David Camacho <carlos0camacho@gmail.com>
+Date:   Mon Apr 16 22:47:01 2018 -0500
+
+    Create README.md
+
+[33mcommit df94d8d65f60f9a635a9dc54419800fa6804129d[m
+Author: carlos <carlos0camacho@gmail.com>
+Date:   Mon Apr 16 21:59:00 2018 -0500
+
+    EntornoVirtual y organizacion
+
+[33mcommit ae1382058658f723fb524c05db2301e7784b302f[m
+Author: Carlos David Camacho <carlos0camacho@gmail.com>
+Date:   Wed Apr 11 07:51:25 2018 -0500
+
+    Add files via upload
+
+[33mcommit 2817dca28b6e079ef76cdf5b6a735492cd477b2e[m
+Author: Carlos David Camacho <carlos0camacho@gmail.com>
+Date:   Wed Apr 11 07:46:18 2018 -0500
+
+    Initial commit

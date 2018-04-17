@@ -2,7 +2,9 @@ import ply.lex as lex
 
 tokens = [  'VARIABLE','NUMERO','SUMAR','RESTAR',
             'MULTIPLICAR','DIVIDIR', 'IGUAL','POTENCIA',
-            'COMPARACION','NEGACION','CONDICIONSI','CICLOPARA'
+            'ESIGUAL','NEGACION','CONDICIONSI','CICLOPARA',
+            'MAYOR','MENOR','MAYORIGUAL','MENORIGUAL','ABREPARENT','CIERRAPARENT'
+
         ]
 condicionLIST=['SI','SINO','ENTONCES']
 paraList=['PARA','HASTA','SALTANDO','HACER']
@@ -15,8 +17,13 @@ t_DIVIDIR = r'/'
 t_IGUAL = r'='
 #t_VARIABLE = r'[a-zA-Z_][a-zA-Z0-9_]*'
 t_POTENCIA = r'\^'
-t_COMPARACION = r'=='
+t_ESIGUAL = r'=='
 t_NEGACION= r'!='
+t_MAYOR = r'>'
+t_MENOR = r'<'
+t_MAYORIGUAL    = r'>='
+t_MENORIGUAL    = r'<='
+
 
 def t_COMENTARIO(t):
     r'\#.*'
