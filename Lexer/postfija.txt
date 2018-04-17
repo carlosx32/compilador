@@ -1,0 +1,3 @@
+si 2 2 == entonces
+  x= 3 9 +
+fin si
