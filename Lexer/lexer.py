@@ -3,11 +3,11 @@ import ply.lex as lex
 tokens = [  'VARIABLE','NUMERO','SUMAR','RESTAR',
             'MULTIPLICAR','DIVIDIR', 'IGUAL','POTENCIA',
             'ESIGUAL','NEGACION','CONDICIONSI','CICLOPARA',
-            'MAYOR','MENOR','MAYORIGUAL','MENORIGUAL','ABREPARENT','CIERRAPARENT'
-
+            'MAYOR','MENOR','MAYORIGUAL','MENORIGUAL','PRENTESIS','CADENA_CARACTERES','DOSPUNTOS','COMENTARIO'
         ]
 condicionLIST=['SI','SINO','ENTONCES']
 paraList=['PARA','HASTA','SALTANDO','HACER']
+
 
 t_ignore = ' \t'
 t_SUMAR = r'\+'
@@ -23,11 +23,13 @@ t_MAYOR = r'>'
 t_MENOR = r'<'
 t_MAYORIGUAL    = r'>='
 t_MENORIGUAL    = r'<='
-
+t_PRENTESIS	= '[\(][a-zA-Z]*[)]'
+t_CADENA_CARACTERES= '["\'][a-zA-Z]*[\'"]'
+t_DOSPUNTOS	= ':'
 
 def t_COMENTARIO(t):
     r'\#.*'
-    pass
+    return t
 
 
 def t_VARIABLE(t):
